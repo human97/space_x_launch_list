@@ -1,0 +1,19 @@
+/* icon_block */
+
+.icon_block {
+display: flex;
+align-items: center;
+
+  font-family: Teko-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 100%;
+
+  /* identical to box height, or 24px */
+  color: #FFF;
+
+  img{
+    padding: 0 10px 0 0;
+  }
+}

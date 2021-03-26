@@ -1,0 +1,42 @@
+/* news */
+
+.news {
+  width: 300px;
+  padding: 20px 20px 40px 20px;
+  margin: 20px 0;
+  background: rgba(34, 36, 43, 0.8);
+
+  h3 {
+    font-family: Teko-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 7px;
+
+    color: #17A1CC;
+  }
+
+  h2 {
+    margin: 16px 0 20px 0;
+
+    font-family: Teko-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 100%;
+
+    color: #fff;
+  }
+
+  p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+
+    /* or 25px */
+    color: #FFF;
+  }
+}

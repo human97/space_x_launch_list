@@ -1,0 +1,10 @@
+/* page */
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0 40px 0 ;
+    background: no-repeat 50% 0 url(../img/bg_mob.png);
+    min-height: 100vh;
+}
