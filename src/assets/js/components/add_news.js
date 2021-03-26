@@ -4,7 +4,7 @@ for (let key of news) {
   main.innerHTML += `
   <section class="news">
     <h3>Mission ${key.Mission}</h3>
-    <h2>${key.title}<new/h2>
+    <h2>${key.title}</h2>
     <p class="news--text">${key.text}</p>
     <div class="icons_block">
       <div class="icon_block data">
