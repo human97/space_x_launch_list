@@ -8,7 +8,7 @@ for (let key of news) {
 
     <h3>Mission ${key.Mission}</h3>
     <h2>${key.title}</h2>
-    <p class="news--text">${key.text}</p>
+    <div class="news--text">${key.text}</div>
     <div class="icons_block">
       <div class="icon_block data">
         <img src="assets/img/icons/calendar.png" alt="calendar">

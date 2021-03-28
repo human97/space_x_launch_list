@@ -511,6 +511,12 @@ body {
     }
 }
 
+@media (min-width: 1220px) {
+    .news .news--text {
+        padding: 0 0 20px;
+    }
+}
+
 .news p {
     padding: 0 0 20px;
     font-family: Ubuntu;
@@ -520,12 +526,6 @@ body {
     line-height: 140%;
     /* or 25px */
     color: #FFF;
-}
-
-@media (min-width: 1220px) {
-    .news p {
-        padding: 0 0 40px;
-    }
 }
 
 @media (min-width: 1220px) {
@@ -568,7 +568,7 @@ body {
 .icon_block img {
     width: 32px;
     height: 32px;
-    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
 }
 
 /* block_img */
