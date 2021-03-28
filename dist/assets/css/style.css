@@ -379,6 +379,7 @@ body {
     font-style: normal;
     color: #fff;
     background: #151418;
+    min-height: 100vh;
   /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
 }
