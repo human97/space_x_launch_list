@@ -1,36 +1,49 @@
 /* header */
 
 .header {
-  width: 300px;
+  margin: 0 0 60px;
 
-  &--logo-svg {
-    width: 300px;
-    height: 30px;
+  @media(min-width: 1220px) {
+    margin: 0 0 155.97px;
   }
+}
 
-  &--title {
-    margin: 30px 0 40px 0;
+
+.header--title {
+  margin: 30px 0 0;
+
+
+  @media (min-width:535px) {
+    width: 435px;
   }
+}
 
-  &--title h1 {
-    margin: 0;
-    font-family: Teko-Light;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 120px;
-    line-height: 108px;
+.header--title h1 {
+  margin: 0;
+  font-family: Teko-Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 120px;
+  line-height: 108px;
+  color: #17A1CC;
 
-    color: #17A1CC;
 
-    & span {
-      font-family: BravoRG;
-      font-style: normal;
-      font-weight: 400;
+  span {
+    color: #fff;
 
-      font-size: 120px;
-      color: #fff;
+    @media (min: width 1220px) {
+      font-size: 180px;
+      line-height: 90%;
+
+      /* or 162px */
     }
   }
 
 
+  @media (min: width 1220px) {
+    font-size: 180px;
+    line-height: 90%;
+
+    /* or 162px */
+  }
 }

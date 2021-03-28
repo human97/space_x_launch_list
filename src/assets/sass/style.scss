@@ -14,7 +14,7 @@
 }
 
 body {
-    //font-family: $font;
+    font-family: $font;
     font-style: normal;
     color: #fff;
     background: $bg_color;
@@ -28,7 +28,8 @@ body {
 
 @import 'src/assets/sass/blocks/page';
 @import 'src/assets/sass/blocks/header';
-@import 'src/assets/sass/blocks/main';
+@import 'src/assets/sass/blocks/logo';
 @import 'src/assets/sass/blocks/news';
 @import 'src/assets/sass/blocks/icons_block';
 @import 'src/assets/sass/blocks/icon_block';
+@import 'src/assets/sass/blocks/block_img';

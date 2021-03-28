@@ -1,8 +1,11 @@
 let main = document.querySelector('.main')
 
+
+// цикл добавления новостей на страницу
 for (let key of news) {
-  main.innerHTML += `
-  <section class="news">
+  main.innerHTML += 
+  `<section class="news">
+
     <h3>Mission ${key.Mission}</h3>
     <h2>${key.title}</h2>
     <p class="news--text">${key.text}</p>
@@ -21,6 +24,21 @@ for (let key of news) {
       </div>
     </div>
     <!-- /.icons_block -->
+
+    <div class="block_img">
+
+    <picture class="block_img--mission_img">
+
+      <source class="mission_img" srcset="assets/img/missions/mission_img_${key.Mission}.avif" type="image/avif">
+
+      <source class="mission_img" srcset="assets/img/missions/mission_img_${key.Mission}.webp" type="image/webp">
+
+      <img class="mission_img" src="assets/img/missions/mission_img_${key.Mission}.png" alt="image">
+
+    </picture>
+
+  </div>
+
   </section>
   <!-- /.news -->`
 }

@@ -1,37 +1,37 @@
 /* fonts */
 
 @font-face {
-  font-family: 'BravoRG';
-  src: url('../fonts/BravoRG.eot');
-  src: url('../fonts/BravoRG.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/BravoRG.woff2') format('woff2');
+  font-family: 'Ubuntu';
   font-weight: normal;
   font-style: normal;
-  }
+  src: local('Ubuntu'),
+    url('../fonts/Ubuntu-Regular.eot'),
+    url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
+    url('../fonts/Ubuntu-Regular.woff') format('woff');
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Regular.eot');
-    src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Ubuntu-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    }
+@font-face {
+  font-family: 'Teko-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: local('Teko-Light'),
+    url('../fonts/Teko-Light.eot'),
+    url('../fonts/Teko-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Teko-Light.woff2') format('woff2'),
+    url('../fonts/Teko-Light.woff') format('woff');
+  font-display: swap;
+}
 
-    @font-face {
-      font-family: 'Teko-Light';
-      src: url('../fonts/Teko-Light.eot');
-      src: url('../fonts/Teko-Light.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Teko-Light.woff2') format('woff2');
-      font-weight: 300;
-      font-style: normal;
-      }
-
-      @font-face {
-        font-family: 'Teko-Regular';
-        src: url('../fonts/Teko-Regular.eot');
-        src: url('../fonts/Teko-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Teko-Regular.woff2') format('woff2');
-        font-weight: 400;
-        font-style: normal;
-        }
+@font-face {
+  font-family: 'Teko-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Teko-Regular'),
+    url('../fonts/Teko-Regular.eot'),
+    url('../fonts/Teko-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Teko-Regular.woff2') format('woff2'),
+    url('../fonts/Teko-Regular.woff') format('woff');
+  font-display: swap;
+}
