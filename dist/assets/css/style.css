@@ -345,7 +345,6 @@ template {
   font-weight: normal;
   font-style: normal;
   src: local("Ubuntu"), url("../fonts/Ubuntu-Regular.eot"), url("../fonts/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff");
-  font-display: swap;
 }
 
 @font-face {
@@ -353,7 +352,6 @@ template {
   font-weight: 300;
   font-style: normal;
   src: local("Teko-Light"), url("../fonts/Teko-Light.eot"), url("../fonts/Teko-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Teko-Light.woff2") format("woff2"), url("../fonts/Teko-Light.woff") format("woff");
-  font-display: swap;
 }
 
 @font-face {
@@ -361,7 +359,6 @@ template {
   font-weight: 400;
   font-style: normal;
   src: local("Teko-Regular"), url("../fonts/Teko-Regular.eot"), url("../fonts/Teko-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Teko-Regular.woff2") format("woff2"), url("../fonts/Teko-Regular.woff") format("woff");
-  font-display: swap;
 }
 
 /* vars */
