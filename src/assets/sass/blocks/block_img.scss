@@ -3,7 +3,6 @@
 .block_img {
   display: none;
 
-
   @media(min-width: 1220px) {
     width: 180px;
     height: 180px;
@@ -21,4 +20,9 @@
     background: rgba(23, 161, 204, 0.7);
 
   }
+}
+
+.mission_img {
+  width: 144.64px;
+  height: 144.64px;
 }

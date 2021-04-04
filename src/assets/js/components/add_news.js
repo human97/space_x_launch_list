@@ -11,15 +11,21 @@ for (let key of news) {
     <div class="news--text">${key.text}</div>
     <div class="icons_block">
       <div class="icon_block data">
-        <img src="assets/img/icons/calendar.svg" alt="calendar">
+      <svg class="icon_block--svg">
+      <use xlink:href="#calendar"></use>
+    </svg>
         <div class="data--number">${key.data}</div>
       </div>
       <div class="icon_block time">
-        <img src="assets/img/icons/time.svg" alt="time">
+      <svg class="icon_block--svg">
+      <use xlink:href="#time"></use>
+    </svg>
         <div class="time--number">${key.time}</div>
       </div>
       <div class="icon_block rocket">
-        <img src="assets/img/icons/rocket.svg" alt="rocket">
+      <svg class="icon_block--svg">
+      <use xlink:href="#rocket"></use>
+    </svg>
         <div class="rocket--name">${key.rocket}</div>
       </div>
     </div>
@@ -33,7 +39,7 @@ for (let key of news) {
 
       <source class="mission_img" srcset="assets/img/missions/mission_img_${key.Mission}.webp" media='(min-width: 1220px)' type="image/webp">
 
-      <img class="mission_img" src="assets/img/missions/mission_img_${key.Mission}.png" alt="image">
+      <img class="mission_img" src="assets/img/missions/mission_img_${key.Mission}.png" srcset="assets/img/missions/mission_img_${key.Mission}.webp" media='(min-width: 1220px)' alt="image">
 
     </picture>
 

@@ -563,7 +563,7 @@ body {
     color: #FFF;
 }
 
-.icon_block img {
+.icon_block svg {
     width: 32px;
     height: 32px;
     margin: 0 10px 0 0;
@@ -588,4 +588,9 @@ body {
         z-index: 11;
         background: rgba(23, 161, 204, 0.7);
     }
+}
+
+.mission_img {
+    width: 144.64px;
+    height: 144.64px;
 }
