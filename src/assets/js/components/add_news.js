@@ -39,7 +39,7 @@ for (let key of news) {
 
       <source class="mission_img" srcset="assets/img/missions/mission_img_${key.Mission}.webp" media='(min-width: 1220px)' type="image/webp">
 
-      <img class="mission_img" src="assets/img/missions/mission_img_${key.Mission}.png" srcset="assets/img/missions/mission_img_${key.Mission}.webp" media='(min-width: 1220px)' alt="image">
+      <img class="mission_img" src="assets/img/missions/mission_img_${key.Mission}.png" srcset="assets/img/missions/mission_img_${key.Mission}x2.png 2x" alt="image">
 
     </picture>
 
