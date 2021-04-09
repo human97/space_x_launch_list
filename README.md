@@ -5,7 +5,7 @@
 Новости рендерятся на web-страницу из массива news, с помощью цикла.
 
 
-Стек: Vanilla JS(ES6), Mobile first, SASS, Flexbox, HTML5, BEM, Gulp, Git
+Стек: Vanilla JS(ES6), Mobile first, SASS, Flexbox, HTML5, BEM, Gulp, Figma, Git
 
 *Реализация: Vanilla JS, SASS, HTML5*
 
@@ -17,6 +17,6 @@ Adaptive page, Mobile First.
 News Rander on the Web page from the NEWS massif, using a cycle.
 
 
-Stack: Vanilla JS(ES6), Mobile first, SASS, Flexbox, HTML5, BEM, Gulp, Git
+Stack: Vanilla JS(ES6), Mobile first, SASS, Flexbox, HTML5, BEM, Gulp, Figma, Git
 
 *Implementation: Vanilla JS, SASS, HTML5*
